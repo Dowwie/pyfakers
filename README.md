@@ -18,7 +18,9 @@ Install with pip, wheel files are provided for Linux and macOS:
 ## Usage example
 
 ```python
-from pyfakers import ..
+import pyfakers as faker
+
+print(faker.full_name())
 
 ```
 
@@ -58,6 +60,10 @@ Launch a virtual environment (from the project root):
 Now you can build the package:
 
     python3 setup.py bdist_wheel
+
+Install the wheel
+
+	pip install dist/<wheel file name>
 
 ## License
 
