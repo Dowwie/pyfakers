@@ -1,0 +1,5 @@
+graft pyfakers 
+global-exclude __pycache__
+global-exclude *.py[co]
+global-exclude *.swp
+include LICENSE

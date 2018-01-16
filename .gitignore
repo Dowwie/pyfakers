@@ -1,0 +1,8 @@
+*.pyc
+/venv
+/build
+/dist
+/.eggs
+/pyfakers.egg-info
+/rust/target
+/pyfakers/_native*

@@ -1,0 +1,16 @@
+[package]
+name = "pyfakers_bindings"
+version = "0.0.1"
+authors = ["Darin Gordon <dkcdkg@gmail.com>"]
+build = "build.rs"
+
+[lib]
+name = "pyfakers"
+crate-type = ["cdylib"]
+
+[build-dependencies]
+cbindgen = "0.1"
+
+[dependencies]
+fake = "1.2.1"
+libc = "0.2.36"
