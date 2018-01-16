@@ -1,10 +1,12 @@
-import ctypes
+import cffi
 from . import _native
 
 
-ptr = _native.lib.full_name()
+ffi = cffi.FFI()
+
 
 def try_convert():
-    name = ctypes.cast(ptr, ctypes.c_char_p).value.decode('utf-8')
+    ptr_name = _native.lib.full_name()
+    name = ffi.string(ptr_name)
     return name
 
