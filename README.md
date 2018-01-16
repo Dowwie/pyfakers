@@ -11,7 +11,7 @@ a fake-data generator written in [Rust](https://www.rust-lang.org/).
 
 Install with pip, wheel files are provided for Linux and macOS:
 
-    pip install pyfakers 
+THIS WONT WORK YET (BUT WILL SHORTLY):    pip install pyfakers 
 
 ## Usage example
 
