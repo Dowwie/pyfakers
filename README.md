@@ -1,4 +1,5 @@
-# Rustface-py
+# py-fake-rs 
+
 
 A fake data generator (a faker) for Python, extended with Rust.
 
