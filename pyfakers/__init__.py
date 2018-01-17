@@ -89,7 +89,7 @@ class Address:
         return ffi.string(_native.lib.state()).decode('utf-8')
 
     def state_abbr(self):
-        return ffi.string(_native.lib.state_abbrev()).decode('utf-8')
+        return ffi.string(_native.lib.state_abbr()).decode('utf-8')
 
     def city(self):
         return ffi.string(_native.lib.city()).decode('utf-8')
