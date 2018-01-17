@@ -7,6 +7,10 @@ This module contains bindings to [fake-rs](https://github.com/cksac/fake-rs),
 a fake-data generator written in [Rust](https://www.rust-lang.org/).
 
 
+The reason for this library is performance. When you're generating large amounts
+of fake data, this library will serve you well.
+
+
 ## Installation
 
 Install with pip, wheel files are provided for Linux and macOS:
@@ -16,9 +20,16 @@ THIS WONT WORK YET (BUT WILL SHORTLY):    pip install pyfakers
 ## Usage example
 
 ```python
-import pyfakers as faker
+from pyfakers import Name
 
-print(faker.full_name())
+print(Name.first_name())
+print(Name.last_name())
+print(Name.full_name())
+print(Name.title_descriptor())
+print(Name.title_level())
+print(Name.title_job())
+print(Name.title())
+
 
 ```
 
