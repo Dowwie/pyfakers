@@ -1,6 +1,6 @@
 [package]
 name = "pyfakers_bindings"
-version = "0.0.1"
+version = "0.1.0"
 authors = ["Darin Gordon <dkcdkg@gmail.com>"]
 build = "build.rs"
 
