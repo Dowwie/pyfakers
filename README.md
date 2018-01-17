@@ -44,7 +44,7 @@ Check out the repository
 
 In order to compile the Rust code, you'll need to have Rust nightly toolchain installed and enabled.
 
-Use rustup to set this up, find installation instructions for rustup at https//www.rustup.rs/
+Use rustup to set this up, find installation instructions for rustup at https://www.rustup.rs/
 
 To use Rust nightly, run the following commands (from the project root)
 
