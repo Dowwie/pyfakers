@@ -20,11 +20,11 @@ print(Name.last_name())
 
 ## Installation
 
-Install with pip, wheel files are provided for Linux and macOS
+For now, build from source and install the generated wheel using pip. 
 
-```
-    pip install pyfakers
-```
+I need help figuring out how to release this binary wheel to pypi, 
+which is raising errors when I do.  Help would be appreciated!
+
 
 
 ## Building from source
