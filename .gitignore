@@ -7,3 +7,4 @@
 /rust/target
 /pyfakers/_native*
 /.mypy_cache
+/.cache
