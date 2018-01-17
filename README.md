@@ -22,7 +22,7 @@ print(Name.last_name())
 
 Install from pypi:
 ```
-pip install pyfakers
+    pip install pyfakers
 ```
 
 ## Building from source
