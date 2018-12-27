@@ -119,7 +119,7 @@ class Address:
 class PhoneNumber:
 
     def phone_number(self):
-        return ffi.string(_native.lib.suffix()).decode('utf-8')
+        return ffi.string(_native.lib.phone_number()).decode('utf-8')
 
 
 Name = Name()
